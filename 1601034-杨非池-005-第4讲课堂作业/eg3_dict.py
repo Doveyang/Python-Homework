@@ -1,0 +1,12 @@
+# -*- coding: cp936 -*-
+dic = {'a': 'algorithm',
+       'b': 'bug',
+       'c': 'compile',
+       'd': 'debugging',
+       'e': 'exception'}
+
+keyword = raw_input('ÇëÊäÈë¹Ø¼ü×Ö£¨a~e£©:')
+
+while keyword >= 'a' and keyword <= 'e':
+    print dic[keyword]
+    keyword = raw_input('ÇëÊäÈë¹Ø¼ü×Ö£¨a~e£©:')
