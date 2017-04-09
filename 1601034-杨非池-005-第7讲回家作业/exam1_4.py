@@ -17,3 +17,15 @@ while True:
 a = reduce(lambda x, y: x + (-1.0) ** (y - 1) * 1 / (2 * y - 1), range(1, n))
 
 print u'计算了 %r 项，pi = %r' % (n, 4 * a)
+
+'''
+i = 1
+s = 0
+t = 1.0
+while t > 1e-6:
+    s += (-1) ** (i - 1) * t
+    i += 1
+    t = 1.0 / (2 * i - 1)
+
+print u'计算了 %r 项，pi = %r' % (i, 4 * s)
+'''
