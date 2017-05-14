@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 ####################################
-# File name: P92-7.py              #
+# File name: P94-7.py              #
 # Author: Nick Yang                #
 # Date created: 5/9/2017           #
 # Date last modified: 5/9/2017     #
@@ -8,7 +8,7 @@
 ####################################
 
 
-def P95_7(char):
+def P94_7(char):
     up = []
     low = []
     number = []
@@ -22,4 +22,4 @@ def P95_7(char):
     return [len(up), len(low), len(number)]
 
 
-print P95_7(raw_input(u'请输入字符串：'))
+print P94_7(raw_input(u'请输入字符串：'))
